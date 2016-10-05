@@ -1,13 +1,7 @@
 import json
+import pprint
+with open ('input.json') as json_data:
+	data = json.load(json_data)
 
-
-def load_data(filepath):
-    pass
-
-
-def pretty_print_json(data):
-    pass
-
-
-if __name__ == '__main__':
-    pass
+#print (data)
+pprint.pprint(data, depth=5)
